@@ -1,0 +1,28 @@
+# Yocto Build Artifacts
+build/
+tmp/
+downloads/
+sstate-cache/
+cache/
+*.pyc
+__pycache__/
+
+# Poky (will be cloned by setup script)
+poky/
+
+# Build output
+*.log
+*.stamp
+*.lock
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
